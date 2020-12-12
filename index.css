@@ -1,0 +1,31 @@
+#page-header .description {
+    margin-top: 0.2em;
+}
+
+@media (min-width: 68em) {
+    #page-header + .tags {
+        position: absolute;
+        margin-top: -3.9em;
+    }
+}
+
+main .tags {
+    font-size: x-large;
+    justify-content: flex-start;
+    margin: 0.3em 0 1.5em -0.3em;
+}
+
+main .tags .tag {
+    padding: 0.15em 0.3em;
+    margin: 0.3em;
+    opacity: 1;
+    color: unset;
+}
+
+main .tags .tag:target {
+    color: green;
+}
+
+main .tags .tag a {
+    text-decoration: none;
+}

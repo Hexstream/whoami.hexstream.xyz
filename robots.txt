@@ -1,0 +1,4 @@
+Sitemap: https://whoami.hexstream.xyz/sitemap.xml
+
+User-agent: *
+Disallow: /special/
