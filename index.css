@@ -20,6 +20,7 @@ main .tags .tag {
     margin: 0.3em;
     opacity: 1;
     color: unset;
+    white-space: normal;
 }
 
 main .tags .tag:target {
