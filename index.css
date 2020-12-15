@@ -29,3 +29,8 @@ main .tags .tag:target {
 main .tags .tag a {
     text-decoration: none;
 }
+
+main .tags .tag a:hover,
+main .tags .tag a:focus {
+    text-decoration: underline;
+}
