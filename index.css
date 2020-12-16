@@ -9,6 +9,10 @@
     }
 }
 
+main {
+    margin-bottom: 0;
+}
+
 main .tags {
     font-size: x-large;
     justify-content: flex-start;
@@ -39,4 +43,39 @@ main .tags .tag a {
 main .tags .tag a:hover,
 main .tags .tag a:focus {
     text-decoration: underline;
+}
+
+
+#i-am-all-of-me {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 37em) {
+    #i-am-all-of-me {
+        font-size: 10vw;
+    }
+}
+
+#i-am-all-of-me a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#i-am-all-of-me a:hover,
+#i-am-all-of-me a:focus {
+    text-decoration: underline;
+}
+
+#i-am-all-of-me:target {
+    color: green;
+}
+
+
+@media (max-width: 34em) {
+    #footer .back-to-top.left {
+        margin-bottom: 13.1vw;
+    }
 }
