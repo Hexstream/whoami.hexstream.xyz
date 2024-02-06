@@ -40,8 +40,7 @@ main .tags .tag a {
     text-decoration: none;
 }
 
-main .tags .tag a:hover,
-main .tags .tag a:focus {
+main .tags .tag a:is(:hover, :focus) {
     text-decoration: underline;
 }
 
@@ -64,8 +63,7 @@ main .tags .tag a:focus {
     color: inherit;
 }
 
-#i-am-all-of-me a:hover,
-#i-am-all-of-me a:focus {
+#i-am-all-of-me a:is(:hover, :focus) {
     text-decoration: underline;
 }
 
