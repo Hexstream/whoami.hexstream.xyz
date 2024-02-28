@@ -22,7 +22,7 @@ main .tags {
 main .tags .tag {
     padding: 0.15em 0.3em;
     margin: 0.3em;
-    white-space: revert;
+    white-space: initial;
     color: inherit;
     opacity: revert;
 }
