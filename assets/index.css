@@ -2,12 +2,22 @@
     margin-top: 0.2em;
 }
 
+
 @media (min-width: 68em) {
     #page-header + .tags {
         position: absolute;
         margin-top: -3.9em;
     }
 }
+
+#real-name a:first-child {
+    color: inherit;
+}
+
+#real-name :last-child:focus {
+    text-decoration: none;
+}
+
 
 main {
     margin-bottom: 0;
