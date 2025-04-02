@@ -41,7 +41,7 @@ main .tags .tag:target {
     color: green;
 }
 
-main .tags .tag.contains-link:target {
+main .tags .tag:has(a):target {
     border-color: green;
     box-shadow: inset 0 0 0em 0.075em green;
 }
